@@ -2,23 +2,29 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
+      <![CDATA[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+    </line>
+    <line>
       <![CDATA[Mobile Name: ASUS ROG Phone 5 (White, 128 GB)]]>
     </line>
     <line>
       <![CDATA[Mobile Price: ₹49,999]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-05-26T08:42:17 IST" name="Default suite" finished-at="2021-05-26T08:42:45 IST" duration-ms="27811">
+  <suite started-at="2021-05-26T11:34:46 IST" name="Default suite" finished-at="2021-05-26T11:35:14 IST" duration-ms="27965">
     <groups>
     </groups>
-    <test started-at="2021-05-26T08:42:17 IST" name="Default test" finished-at="2021-05-26T08:42:45 IST" duration-ms="27811">
+    <test started-at="2021-05-26T11:34:46 IST" name="Default test" finished-at="2021-05-26T11:35:14 IST" duration-ms="27965">
       <class name="Scripts.AddToCart">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:Scripts.AddToCart@732c2a62]" started-at="2021-05-26T08:42:17 IST" name="openApp" finished-at="2021-05-26T08:42:28 IST" duration-ms="10672" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:Scripts.AddToCart@6631f5ca]" started-at="2021-05-26T11:34:46 IST" name="openApp" finished-at="2021-05-26T11:34:56 IST" duration-ms="10000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="removeProduct()[pri:0, instance:Scripts.AddToCart@732c2a62]" started-at="2021-05-26T08:42:28 IST" name="removeProduct" finished-at="2021-05-26T08:42:44 IST" duration-ms="15971" status="PASS">
+        <test-method signature="removeProduct()[pri:0, instance:Scripts.AddToCart@6631f5ca]" started-at="2021-05-26T11:34:56 IST" name="removeProduct" finished-at="2021-05-26T11:35:13 IST" duration-ms="16368" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]>
+            </line>
             <line>
               <![CDATA[Mobile Name: ASUS ROG Phone 5 (White, 128 GB)]]>
             </line>
@@ -27,11 +33,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- removeProduct -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Scripts.AddToCart@732c2a62]" started-at="2021-05-26T08:42:44 IST" name="closeApp" finished-at="2021-05-26T08:42:45 IST" duration-ms="1105" status="PASS">
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Scripts.AddToCart@6631f5ca]" started-at="2021-05-26T11:35:13 IST" name="closeApp" finished-at="2021-05-26T11:35:14 IST" duration-ms="1535" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=removeProduct status=SUCCESS method=AddToCart.removeProduct()[pri:0, instance:Scripts.AddToCart@732c2a62] output=Mobile Name: ASUS ROG Phone 5 (White, 128 GB)]]]>
+                <![CDATA[[TestResult name=removeProduct status=SUCCESS method=AddToCart.removeProduct()[pri:0, instance:Scripts.AddToCart@6631f5ca] output=Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]]>
               </value>
             </param>
           </params>
