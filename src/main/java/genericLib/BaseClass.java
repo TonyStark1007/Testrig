@@ -15,17 +15,17 @@ public class BaseClass extends PropertyFile {
 	public WebDriver driver;
 	public WedDriverUtilities utilties=new WedDriverUtilities();
 	public PropertyFile p=new PropertyFile();
+	public SoftAssert s=new SoftAssert();
 	@BeforeMethod   
 	public void openApp() throws FileNotFoundException, IOException {
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(p.getData("url"));
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		SoftAssert s=new SoftAssert();
-   s.assertEquals(driver.getTitle(), "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!");
 	}
 	@AfterMethod
 	public void closeApp(ITestResult r) throws IOException {
+		
 		int status = r.getStatus();
 		 String name = r.getName();
 		 if(status==2) {
